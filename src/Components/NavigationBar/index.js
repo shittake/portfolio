@@ -4,10 +4,11 @@ import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../../styles/dashboard/index.css";
 
 export const NavigationBar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="home">About me</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
