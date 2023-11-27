@@ -57,16 +57,16 @@
 
   .profile-image:hover {
     cursor: pointer;
-    background-image: url('../../Assets/Random.png');
+    background-image: url('../../Assets/InformalPicture.jpg');
   } 
 
   .info-container {
-    margin-top: 80px;
-    margin-left: 130px
+    margin-top: 100px;
+    margin-left: -70px;
   }
   
 .header {
-    margin: 5px 0;
+    margin: 5px 0;  
     font-size: 60px;
     font-family:"Raleway", sans-serif;
     font-weight: 300;
@@ -84,3 +84,11 @@
     animation: fadeIn 1s forwards;
   }
   
+  .collapse-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .collapse-text {
+    font-size: 40px
+  }
